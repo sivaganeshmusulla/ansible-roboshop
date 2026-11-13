@@ -25,4 +25,4 @@
 
   - name: print the output
     ansible.builtin.debug:
-      msg: "{{ ec2_output }}"
+      msg: "Ec2 Output: {{ ec2_output }}"
